@@ -1,0 +1,66 @@
+
+header {
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	width: 100%;
+	padding: 16px 0;
+	background: linear-gradient(180deg, rgba(230, 230, 230, 1) 0%,
+		rgba(240, 240, 240, .97) 40%,
+		rgba(255, 255, 255, .9) 100%);
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+	height: 36px;
+}
+
+.logo-container {
+	margin-left: 48px;
+}
+
+.headergap {
+	height: 97px;
+	background-color: #e6e6e6;
+}
+
+.logotext {
+	font-size: 24px;
+	margin: 0;
+}
+
+nav {
+	padding-bottom: 8px;
+	flex: 1;
+}
+
+.navitem {
+	font-size: 18px;
+	padding: 8px;
+	margin: 0 16px;
+}
+
+.joinbutton {
+	margin-right: 48px;
+	margin-bottom: 8px;
+	padding: 12px 18px;
+	border-radius: 8px;
+	background-color: #e42d40;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+a {
+	color: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
