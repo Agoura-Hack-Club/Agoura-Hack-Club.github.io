@@ -58,11 +58,26 @@ nav {
 	padding-left: 32px;
 	padding-right: 32px;
 	background-color: #ffffff;
+	overflow: hidden;
+}
+
+.link {
+	text-decoration: underline;
+}
+
+.accented {
+	color: #e42d40;
+	font-weight: 600;
 }
 
 h1 {
 	font-family: 'Montserrat';
 	font-size: 64px;
+	margin: 32px 0;
+}
+
+p {
+	font-size: 24px;
 }
 
 a {
