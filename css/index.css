@@ -1,0 +1,28 @@
+.contentwrapper {
+	padding-top: 16px;
+}
+
+.splash {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	background: rgb(223,50,74);
+	background: linear-gradient(166deg, rgba(223,50,74,1) 0%, rgba(232,127,74,1) 50%, rgba(255,140,55,1) 100%);
+}
+
+.splash-headline {
+	margin: 0;
+	color: #ffffff;
+}
+
+.splash-tagline {
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.splash-content {
+	margin: auto;
+}
