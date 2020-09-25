@@ -26,3 +26,17 @@
 .splash-content {
 	margin: auto;
 }
+
+.rightimage {
+	height:360px;
+	float:right;
+	margin-left:32px;
+	margin-bottom:16px;
+	margin-right:32px;
+}
+
+@media only screen and (max-width: 768px)  {
+	.rightimage {
+		display: none;
+	}
+}
